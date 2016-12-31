@@ -6,6 +6,7 @@ layout: default
 
 <div id="home">
   <h1>Parking Information</h1>
+  <img src="https://cdn.pixabay.com/photo/2016/09/19/11/38/multi-storey-car-park-1680087_960_720.jpg"style="width:350px;height:228px;">
   <ul class="posts">
     {% for post in site.posts %}
       <li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></li>
